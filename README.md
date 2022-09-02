@@ -1,6 +1,6 @@
 # kb-test
 
-**Description of the application goes here**
+ **Description of the application goes here**
 
 Developed and maintained by the Royal Danish Library.
 
