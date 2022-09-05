@@ -9,6 +9,7 @@ Developed and maintained by the Royal Danish Library.
 * Maven 3                                  
 * Java 17
 
+
 ## Setup
 
 **PostgreSQL database creation, Solr installation etc. goes here**
