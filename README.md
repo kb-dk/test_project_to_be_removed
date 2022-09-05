@@ -1,35 +1,9 @@
 # kb-test
 
- **Description of the application goes here**
+Project for testing Jenkins integration at the Royal Danish Library.
+ 
+Please ignore.
 
-Developed and maintained by the Royal Danish Library.
+Or rather: Feel free to explore as there is nothing secret here.
+It's just not relevant outside of the Royal Danish Library.
 
-## Requirements
-
-* Maven 3                                  
-* Java 17
-
-
-## Setup
-
-**PostgreSQL database creation, Solr installation etc. goes here**
-
-## Build & run
-
-Build with
-``` 
-mvn package
-```
-
-Test the webservice with
-```
-mvn jetty:run
-```
-
-The default port is 8080 and the default Hello World service can be accessed at
-<http://localhost:8080/kb-test/v1/hello>
-
-The Swagger UI is available at <http://localhost:8080/kb-test/api/>, providing access to both the `v1` and the 
-`devel` versions of the GUI. 
-
-See the file [DEVELOPER.md](DEVELOPER.md) for developer specific details and how to deploy to tomcat.

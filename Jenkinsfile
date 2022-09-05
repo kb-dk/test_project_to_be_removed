@@ -57,8 +57,8 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
                                 taskScanner(highTags:'FIXME', normalTags:'TODO', includePattern: '**/*.java', excludePattern: 'target/**/*')]
                 }
 
-//                stage('Create test project') {
-//                    recreateProject(projectName)
+                stage('Create test project') {
+                    recreateProject(projectName)
 
 //                    openshift.withProject(projectName) {
 
@@ -69,7 +69,7 @@ openshift.withCluster() { // Use "default" cluster or fallback to OpenShift clus
 //                            openshift.create("route", "edge", "--service=kb-test")
 //                        }
 //                    }
-//                }
+                }
 
                 stage('Push to Nexus (if Master)') {
                     sh 'env'
